@@ -15,11 +15,11 @@ Code = "L29"
 proxy_url = 'http://proxy.server:3128'
 
 if Code[0] == "T":
-    bot = Bot(token="6871609784:AAF5M0toDxiEps8Rs0ibB6kcRaF7IfBLpnI", proxy=proxy_url) # Бот Тесты
+    bot = Bot(token="ZZZ", proxy=proxy_url) # Бот Тесты
 elif Code == "L14":
-    bot = Bot(token="6321164079:AAFhVkhIPXkc9OmOBb3cgK-P4HoMb3tSpqg", proxy=proxy_url) # Бот 14 Лицей
+    bot = Bot(token="ZZZZ", proxy=proxy_url) # Бот 14 Лицей
 elif Code == "L29":
-    bot = Bot(token="7405779446:AAEZr8G4xvly2U0JU4kyUx-0fjmgFAae1z8", proxy=proxy_url) # Бот 29 Лицей
+    bot = Bot(token="ZZZZ", proxy=proxy_url) # Бот 29 Лицей
 dp = Dispatcher(bot)
 
 bot.delete_webhook()
